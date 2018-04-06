@@ -1,0 +1,11 @@
+{
+	"services": [{
+		"data_producers": ["twitter", "iex"],
+		"redis": ["data_store"],
+		"database": ["db-data"]
+	}],
+
+	"compose_file": "docker-compose.yml",
+	"user_name": "madderle"
+
+}
