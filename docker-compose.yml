@@ -2,7 +2,7 @@ version : '2'
 
 services:
   twitter:
-    image: madderle/scaling-docker:data-producer-2.0
+    image: madderle/scaling-docker:data-producer-1.0
     container_name: twitter_02
     ports:
       - "9999:9999"
@@ -17,7 +17,7 @@ services:
 
 
   iex:
-    image: madderle/scaling-docker:data-producer-2.0
+    image: madderle/scaling-docker:data-producer-1.0
     container_name: iex_02
     ports:
       - "7777:7777"
